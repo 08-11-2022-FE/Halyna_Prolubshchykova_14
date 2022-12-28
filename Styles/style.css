@@ -1,0 +1,249 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 2375px;
+  margin: 0px;
+  background: #ffffff;
+}
+.header {
+  position: fixed;
+  width: 1200px;
+  height: 54px;
+  left: 120px;
+  top: 13px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.lang {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0%;
+  right: 95.83%;
+  top: 29.63%;
+  bottom: 32.63%;
+  font-family: "Tourney";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.header-nav {
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  left: calc(50% - 261px / 2 - 369.5px);
+  top: calc(50% - 20px / 2);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.nav-item {
+  list-style: none;
+  font-family: "Staatliches";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  mix-blend-mode: normal;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+}
+.logo {
+  position: absolute;
+  width: 238px;
+  height: 54px;
+  left: 962px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 90px;
+  gap: 70px;
+  position: absolute;
+  width: 785px;
+  height: 2931px;
+  left: 535px;
+  top: 200px;
+}
+.background {
+  position: fixed;
+  z-index: -1;
+  left: 810px;
+  top: 140px;
+}
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 70px;
+  position: sticky;
+  width: 385px;
+  height: 462px;
+  left: 120px;
+  top: 150px;
+}
+.sidebar-list {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  gap: 70px;
+  height: 462px;
+}
+.sidebar-item {
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #bdbdbd;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-top: 50px;
+  gap: 10px;
+  width: 100%;
+  height: 58px;
+}
+.sidebar-link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 785px;
+  height: 308px;
+}
+.components {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  width: 785px;
+  height: 452px;
+}
+.fundamentals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  gap: 40px;
+  isolation: isolate;
+  width: 785px;
+  height: 1331px;
+}
+.handling {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 50px;
+  gap: 40px;
+  width: 785px;
+  height: 540px;
+}
+.title {
+  font-family: "Francois One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0px;
+}
+
+h1 ::before {
+  content: " ";
+  width: 100px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: -30px;
+  left: -235px;
+}
+h2 ::before {
+  content: " ";
+  width: 100px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: -30px;
+  left: -310px;
+}
+h3 ::before {
+  content: " ";
+  width: 100px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: -30px;
+  left: -370px;
+}
+h4 ::before {
+  content: " ";
+  width: 100px;
+  height: 8px;
+  background: #000000;
+  position: absolute;
+  top: -30px;
+  left: -355px;
+}
+.title > sup {
+  vertical-align: top;
+  font-family: "Farro", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
+.text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 48px;
+  color: #000000;
+  margin: 0px;
+}
+.bold {
+  font-weight: 700;
+}
+.hidden {
+  background: #dadada;
+}
+.italic {
+  font-style: italic;
+}
+.decorated {
+  text-decoration: underline;
+}
